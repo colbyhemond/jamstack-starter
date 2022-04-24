@@ -1,4 +1,4 @@
-import clientPromise from "../../lib/mongodb.js";
+import clientPromise from "../../lib/utils/mongodb.js";
 import {ObjectId} from 'mongodb'
 import { withAuth } from "@clerk/nextjs/api";
 
